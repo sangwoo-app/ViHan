@@ -1,0 +1,32 @@
+{
+  "updated": "2026-07-12 23:51",
+  "mid": 17.3601,
+  "providers": [
+    {
+      "name": "GME Remit",
+      "vndPerKrw": 17.3601,
+      "fee": 5000
+    },
+    {
+      "name": "Hanpass",
+      "vndPerKrw": 17.2906,
+      "fee": 4000
+    },
+    {
+      "name": "E9pay",
+      "vndPerKrw": 17.2212,
+      "fee": 3000
+    },
+    {
+      "name": "Sentbe",
+      "vndPerKrw": 17.1517,
+      "fee": 0
+    }
+  ],
+  "history": [
+    17.3601,
+    17.3601,
+    17.3601,
+    17.3601
+  ]
+}
