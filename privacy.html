@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ViHan — Chính sách bảo mật / 개인정보처리방침</title>
+<style>
+  :root{--bg:#fafafa;--card:#fff;--line:#e4e6eb;--txt:#1a1a1a;--sub:#6b7280;--brand:#0095f6}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,"Segoe UI",Roboto,"Malgun Gothic",sans-serif;
+    line-height:1.65;-webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:24px 18px 60px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+  .logo{font-size:26px;font-weight:800;letter-spacing:-.5px}
+  .logo .vi{color:var(--brand)}
+  .lang{display:flex;background:#f0f2f5;border-radius:20px;padding:3px}
+  .lang button{border:0;background:transparent;color:var(--sub);padding:6px 14px;border-radius:18px;font-weight:700;font-size:14px;cursor:pointer}
+  .lang button.on{background:var(--brand);color:#fff}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:14px}
+  h1{font-size:21px;margin:0 0 4px}
+  h2{font-size:16px;margin:22px 0 6px;color:#0072c6}
+  h2:first-child{margin-top:0}
+  p,li{font-size:14.5px}
+  ul{padding-left:20px;margin:6px 0}
+  .meta{color:var(--sub);font-size:13px;margin:0 0 18px}
+  table{width:100%;border-collapse:collapse;margin:8px 0;font-size:13.5px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f4f5f7;font-weight:700}
+  .warn{background:#fff8e6;border-left:4px solid #c98a00;padding:12px 14px;border-radius:8px;margin:10px 0;font-size:14px}
+  .foot{color:var(--sub);font-size:12.5px;text-align:center;margin-top:24px}
+  code{background:#f0f2f5;padding:1px 5px;border-radius:4px;font-size:13px}
+  [lang]{display:none}
+  body.vi [lang="vi"],body.ko [lang="ko"]{display:block}
+  body.vi li[lang="vi"],body.ko li[lang="ko"]{display:list-item}
+  body.vi span[lang="vi"],body.ko span[lang="ko"]{display:inline}
+</style>
+</head>
+<body class="vi">
+<div class="wrap">
+  <header>
+    <div class="logo"><span class="vi">Vi</span>Han</div>
+    <div class="lang">
+      <button id="b_vi" class="on" onclick="setL('vi')">VI</button>
+      <button id="b_ko" onclick="setL('ko')">한국어</button>
+    </div>
+  </header>
+
+  <!-- ================= VIETNAMESE ================= -->
+  <div lang="vi">
+    <div class="card">
+      <h1>Chính sách bảo mật</h1>
+      <p class="meta">Áp dụng từ: 2026-07-17 · Ứng dụng: ViHan (<code>com.vihan.app</code>)</p>
+
+      <p>ViHan là ứng dụng giúp người lao động Việt Nam tại Hàn Quốc tính tiền lương, trợ cấp thôi việc, tiền hoàn bảo hiểm hưu trí và so sánh phí chuyển tiền. Chúng tôi thu thập <b>càng ít dữ liệu càng tốt</b>.</p>
+
+      <div class="warn"><b>Điểm quan trọng nhất:</b> Bảng chấm công, ảnh, vị trí và nội dung đơn khiếu nại của bạn <b>chỉ lưu trên điện thoại của bạn</b> — chúng tôi không gửi lên máy chủ và không xem được.</div>
+
+      <h2>1. Dữ liệu chúng tôi thu thập</h2>
+      <table>
+        <tr><th>Loại</th><th>Mục đích</th><th>Lưu ở đâu</th></tr>
+        <tr><td>ID ẩn danh (do Firebase tự tạo)</td><td>Để bạn viết bài/bình luận trong Cộng đồng mà không cần đăng nhập, và để bạn xóa được bài của mình</td><td>Máy chủ Google Firebase (Seoul)</td></tr>
+        <tr><td>Bài viết & bình luận trong Cộng đồng</td><td>Hiển thị cho người dùng khác</td><td>Máy chủ Google Firebase (Seoul)</td></tr>
+        <tr><td>Bảng chấm công, ảnh, ghi chú, mục tiêu tiết kiệm, nội dung đơn khiếu nại</td><td>Tính toán và tạo file PDF cho bạn</td><td><b>Chỉ trên điện thoại của bạn</b></td></tr>
+        <tr><td>Vị trí GPS (chỉ khi bạn bấm nút)</td><td>Ghi nơi làm việc khi chấm công</td><td><b>Chỉ trên điện thoại của bạn</b> (xem mục 3)</td></tr>
+        <tr><td>Mã quảng cáo (Google Advertising ID)</td><td>Hiển thị quảng cáo</td><td>Google AdMob</td></tr>
+      </table>
+
+      <p><b>Chúng tôi KHÔNG thu thập:</b> tên thật, số điện thoại, số đăng ký người nước ngoài, email, danh bạ, tài khoản ngân hàng của bạn.</p>
+
+      <h2>2. Cộng đồng ẩn danh</h2>
+      <ul>
+        <li lang="vi">Bạn không cần tài khoản. Ứng dụng tự tạo một ID ẩn danh và biệt danh (ví dụ <code>Ẩn danh #A1B2</code>).</li>
+        <li lang="vi">Bài viết và bình luận là <b>công khai</b> với người dùng khác.</li>
+        <li lang="vi">Chúng tôi <b>không xác minh</b> nội dung do người dùng viết.</li>
+        <li lang="vi">Bạn có thể xóa bài/bình luận của mình bất cứ lúc nào. Bài bị báo cáo nhiều sẽ tự động bị ẩn.</li>
+        <li lang="vi"><b>Đừng viết tên thật, số điện thoại hay địa chỉ</b> của bất kỳ ai — kể cả của bạn.</li>
+        <li lang="vi">Nếu bạn gỡ ứng dụng, ID ẩn danh sẽ mất và bạn <b>không thể xóa bài cũ</b> nữa. Hãy xóa trước khi gỡ.</li>
+      </ul>
+
+      <h2>3. Gửi dữ liệu cho bên thứ ba</h2>
+      <ul>
+        <li lang="vi"><b>Google Firebase</b> (Authentication, Firestore) — lưu bài viết Cộng đồng. Máy chủ đặt tại Hàn Quốc (Seoul).</li>
+        <li lang="vi"><b>Google AdMob</b> — hiển thị quảng cáo.</li>
+        <li lang="vi"><b>OpenStreetMap (Nominatim)</b> — khi bạn bấm nút ghi vị trí, tọa độ GPS được gửi đến dịch vụ này để đổi thành địa chỉ. Chúng tôi không lưu tọa độ trên máy chủ của mình.</li>
+        <li lang="vi"><b>open.er-api.com / GitHub</b> — lấy tỷ giá. Không gửi dữ liệu cá nhân.</li>
+      </ul>
+      <p>Chúng tôi <b>không bán</b> dữ liệu của bạn cho bất kỳ ai.</p>
+
+      <h2>4. Quyền của ứng dụng</h2>
+      <ul>
+        <li lang="vi"><b>Máy ảnh / Thư viện ảnh</b> — chỉ khi bạn tự bấm để đính kèm ảnh chấm công.</li>
+        <li lang="vi"><b>Vị trí</b> — chỉ khi bạn tự bấm nút ghi vị trí.</li>
+        <li lang="vi"><b>Internet</b> — tỷ giá, Cộng đồng, quảng cáo.</li>
+      </ul>
+      <p>Bạn có thể từ chối các quyền này; các chức năng khác vẫn dùng được bình thường.</p>
+
+      <h2>5. Xóa dữ liệu</h2>
+      <ul>
+        <li lang="vi"><b>Dữ liệu trên máy</b> (chấm công, ảnh, đơn khiếu nại): xóa trong ứng dụng, hoặc gỡ ứng dụng là mất hết.</li>
+        <li lang="vi"><b>Bài Cộng đồng</b>: bấm "Xóa" trên bài của bạn.</li>
+        <li lang="vi">Muốn xóa toàn bộ, hãy gửi email cho chúng tôi (mục 8).</li>
+      </ul>
+
+      <h2>6. Trẻ em</h2>
+      <p>Ứng dụng dành cho người lao động từ 18 tuổi trở lên. Chúng tôi không cố ý thu thập dữ liệu của trẻ em.</p>
+
+      <h2>7. Thay đổi chính sách</h2>
+      <p>Khi có thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng và cập nhật ngày ở đầu trang này.</p>
+
+      <h2>8. Liên hệ</h2>
+      <p>Email: <a href="mailto:elvin5250@gmail.com">elvin5250@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+      <h1>Điều khoản sử dụng</h1>
+      <h2>1. Ứng dụng này là công cụ tham khảo</h2>
+      <p>ViHan cung cấp thông tin và công cụ tính toán mang tính <b>tham khảo</b>. Đây <b>không phải</b> tư vấn pháp lý, tư vấn tài chính hay tư vấn đầu tư. Kết quả tính toán có thể khác với số tiền thực tế do cơ quan nhà nước hoặc công ty xác định. Việc quan trọng hãy gọi <b>1350</b> (miễn phí, có tiếng Việt) hoặc <b>1355</b> (Bảo hiểm hưu trí).</p>
+
+      <h2>2. Đơn khiếu nại (PDF)</h2>
+      <p>Ứng dụng chỉ <b>tạo file</b> theo thông tin bạn nhập. Chúng tôi <b>không nộp thay</b> bạn và không đại diện pháp lý cho bạn. Bạn tự chịu trách nhiệm về nội dung đã khai.</p>
+
+      <h2>3. Bảng chấm công</h2>
+      <p>Đây là ghi chép cá nhân của bạn. Nó <b>có thể dùng làm bằng chứng tham khảo</b>, nhưng <b>không phải</b> tài liệu được cơ quan nhà nước chứng nhận.</p>
+
+      <h2>4. Quy tắc Cộng đồng</h2>
+      <p>Khi sử dụng Cộng đồng, bạn đồng ý <b>KHÔNG</b>:</p>
+      <ul>
+        <li lang="vi">Ghi tên thật của công ty, chủ sử dụng lao động hay người khác (có thể bị kiện tội phỉ báng);</li>
+        <li lang="vi">Ghi số điện thoại, số đăng ký người nước ngoài, địa chỉ, email của bất kỳ ai;</li>
+        <li lang="vi">Chửi bới, quấy rối, phân biệt đối xử;</li>
+        <li lang="vi">Quảng cáo, môi giới, cho vay, lừa đảo, tuyển dụng trái phép;</li>
+        <li lang="vi">Đăng nội dung khiêu dâm, bạo lực hoặc vi phạm pháp luật Hàn Quốc.</li>
+      </ul>
+      <p>Bài vi phạm sẽ bị ẩn hoặc xóa mà không cần báo trước, và tài khoản ẩn danh có thể bị chặn. <b>Bạn tự chịu trách nhiệm pháp lý về nội dung mình đăng.</b></p>
+
+      <h2>5. Báo cáo nội dung xấu</h2>
+      <p>Bấm "Báo cáo" trên bài/bình luận. Bài bị báo cáo nhiều sẽ tự động bị ẩn. Bạn cũng có thể "Chặn" người dùng để không thấy bài của họ nữa. Nếu cần xử lý gấp, gửi email cho chúng tôi.</p>
+
+      <h2>6. Giới hạn trách nhiệm</h2>
+      <p>Chúng tôi không chịu trách nhiệm cho thiệt hại phát sinh từ việc bạn tin vào thông tin trong ứng dụng hoặc nội dung do người dùng khác đăng. Ứng dụng được cung cấp "nguyên trạng".</p>
+
+      <h2>7. Liên hệ</h2>
+      <p>Email: <a href="mailto:elvin5250@gmail.com">elvin5250@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- ================= KOREAN ================= -->
+  <div lang="ko">
+    <div class="card">
+      <h1>개인정보처리방침</h1>
+      <p class="meta">시행일: 2026-07-17 · 앱: ViHan (<code>com.vihan.app</code>)</p>
+
+      <p>ViHan은 한국에 체류하는 베트남 노동자가 임금·퇴직금·국민연금 반환일시금을 계산하고 송금 수수료를 비교하도록 돕는 앱입니다. 저희는 <b>최소한의 정보만</b> 수집합니다.</p>
+
+      <div class="warn"><b>가장 중요한 점:</b> 출퇴근 기록, 사진, 위치, 진정서 내용은 <b>이용자의 휴대폰에만 저장</b>됩니다. 서버로 전송하지 않으며 저희는 볼 수 없습니다.</div>
+
+      <h2>1. 수집하는 정보</h2>
+      <table>
+        <tr><th>항목</th><th>목적</th><th>저장 위치</th></tr>
+        <tr><td>익명 ID (Firebase가 자동 생성)</td><td>로그인 없이 커뮤니티 글·댓글 작성, 본인 글 삭제 권한 확인</td><td>Google Firebase 서버(서울)</td></tr>
+        <tr><td>커뮤니티 글·댓글</td><td>다른 이용자에게 표시</td><td>Google Firebase 서버(서울)</td></tr>
+        <tr><td>출퇴근 기록·사진·메모·저축 목표·진정서 입력값</td><td>계산 및 PDF 생성</td><td><b>이용자 휴대폰에만 저장</b></td></tr>
+        <tr><td>GPS 위치 (버튼을 누를 때만)</td><td>출퇴근 장소 기록</td><td><b>이용자 휴대폰에만 저장</b> (3항 참고)</td></tr>
+        <tr><td>광고 식별자 (Google 광고 ID)</td><td>광고 표시</td><td>Google AdMob</td></tr>
+      </table>
+
+      <p><b>수집하지 않는 정보:</b> 이름, 전화번호, 외국인등록번호, 이메일, 연락처, 계좌번호.</p>
+
+      <h2>2. 익명 커뮤니티</h2>
+      <ul>
+        <li lang="ko">계정이 필요 없습니다. 앱이 익명 ID와 닉네임(예: <code>익명 #A1B2</code>)을 자동 생성합니다.</li>
+        <li lang="ko">작성한 글과 댓글은 다른 이용자에게 <b>공개</b>됩니다.</li>
+        <li lang="ko">저희는 이용자가 작성한 내용을 <b>검증하지 않습니다.</b></li>
+        <li lang="ko">본인 글·댓글은 언제든 삭제할 수 있습니다. 신고가 누적된 글은 자동으로 숨겨집니다.</li>
+        <li lang="ko"><b>타인 또는 본인의 실명·전화번호·주소를 쓰지 마세요.</b></li>
+        <li lang="ko">앱을 삭제하면 익명 ID가 사라져 <b>이전 글을 삭제할 수 없게 됩니다.</b> 삭제 전에 먼저 글을 지워주세요.</li>
+      </ul>
+
+      <h2>3. 제3자 제공</h2>
+      <ul>
+        <li lang="ko"><b>Google Firebase</b>(Authentication·Firestore) — 커뮤니티 글 저장. 서버 위치: 대한민국(서울).</li>
+        <li lang="ko"><b>Google AdMob</b> — 광고 표시.</li>
+        <li lang="ko"><b>OpenStreetMap(Nominatim)</b> — 위치 기록 버튼을 누르면 GPS 좌표가 주소 변환을 위해 전송됩니다. 저희 서버에는 좌표를 저장하지 않습니다.</li>
+        <li lang="ko"><b>open.er-api.com / GitHub</b> — 환율 조회. 개인정보를 보내지 않습니다.</li>
+      </ul>
+      <p>저희는 이용자의 정보를 <b>판매하지 않습니다.</b></p>
+
+      <h2>4. 앱 권한</h2>
+      <ul>
+        <li lang="ko"><b>카메라·사진</b> — 출퇴근 사진 첨부를 직접 누를 때만 사용.</li>
+        <li lang="ko"><b>위치</b> — 위치 기록 버튼을 직접 누를 때만 사용.</li>
+        <li lang="ko"><b>인터넷</b> — 환율·커뮤니티·광고.</li>
+      </ul>
+      <p>권한을 거부해도 나머지 기능은 정상 사용할 수 있습니다.</p>
+
+      <h2>5. 삭제 방법</h2>
+      <ul>
+        <li lang="ko"><b>기기 내 데이터</b>(출퇴근·사진·진정서): 앱에서 삭제하거나 앱을 제거하면 모두 사라집니다.</li>
+        <li lang="ko"><b>커뮤니티 글</b>: 본인 글의 "삭제"를 누르세요.</li>
+        <li lang="ko">전체 삭제를 원하면 아래 이메일로 요청해주세요.</li>
+      </ul>
+
+      <h2>6. 아동</h2>
+      <p>본 앱은 만 18세 이상 노동자를 대상으로 합니다. 아동의 정보를 고의로 수집하지 않습니다.</p>
+
+      <h2>7. 변경 고지</h2>
+      <p>중요한 변경이 있으면 앱 내에서 알리고 이 페이지 상단의 시행일을 갱신합니다.</p>
+
+      <h2>8. 문의</h2>
+      <p>이메일: <a href="mailto:elvin5250@gmail.com">elvin5250@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+      <h1>이용약관</h1>
+      <h2>1. 본 앱은 참고용 도구입니다</h2>
+      <p>ViHan이 제공하는 정보와 계산 결과는 <b>참고용</b>이며 <b>법률자문·재무자문·투자자문이 아닙니다.</b> 실제 수령액은 관공서나 회사의 산정과 다를 수 있습니다. 중요한 사안은 <b>1350</b>(무료·베트남어) 또는 <b>1355</b>(국민연금)로 확인하세요.</p>
+
+      <h2>2. 진정서(PDF)</h2>
+      <p>앱은 이용자가 입력한 내용으로 <b>파일을 생성만</b> 합니다. 저희가 <b>대신 제출하지 않으며</b> 법률 대리를 하지 않습니다. 기재한 내용의 책임은 이용자 본인에게 있습니다.</p>
+
+      <h2>3. 출퇴근 기록</h2>
+      <p>이용자 본인이 작성한 개인 기록입니다. <b>참고 증거로 활용할 수 있으나</b> 공적으로 인증된 문서는 <b>아닙니다.</b></p>
+
+      <h2>4. 커뮤니티 규칙</h2>
+      <p>커뮤니티 이용 시 다음 행위를 <b>하지 않기로</b> 동의합니다.</p>
+      <ul>
+        <li lang="ko">회사·사업주·타인의 실명 기재(명예훼손으로 고소당할 수 있습니다);</li>
+        <li lang="ko">본인 또는 타인의 전화번호·외국인등록번호·주소·이메일 기재;</li>
+        <li lang="ko">욕설·괴롭힘·차별;</li>
+        <li lang="ko">광고·브로커·대출·사기·불법 구인;</li>
+        <li lang="ko">음란물·폭력물 또는 대한민국 법령 위반 내용 게시.</li>
+      </ul>
+      <p>위반 글은 사전 통보 없이 숨김·삭제될 수 있고 익명 계정이 차단될 수 있습니다. <b>게시물의 법적 책임은 작성자 본인에게 있습니다.</b></p>
+
+      <h2>5. 유해 콘텐츠 신고</h2>
+      <p>글·댓글의 "신고"를 누르세요. 신고가 누적되면 자동으로 숨겨집니다. "차단"을 누르면 해당 이용자의 글이 보이지 않습니다. 긴급한 경우 이메일로 알려주세요.</p>
+
+      <h2>6. 책임의 한계</h2>
+      <p>앱의 정보나 다른 이용자의 게시물을 신뢰하여 발생한 손해에 대해 책임지지 않습니다. 본 앱은 "있는 그대로" 제공됩니다.</p>
+
+      <h2>7. 문의</h2>
+      <p>이메일: <a href="mailto:elvin5250@gmail.com">elvin5250@gmail.com</a></p>
+    </div>
+  </div>
+
+  <div class="foot">© 2026 ViHan · com.vihan.app</div>
+</div>
+<script>
+function setL(l){
+  document.body.className=l;
+  document.getElementById('b_vi').classList.toggle('on',l==='vi');
+  document.getElementById('b_ko').classList.toggle('on',l==='ko');
+  document.documentElement.lang=l;
+  try{ location.hash=l; }catch(e){}
+}
+if(location.hash.replace('#','')==='ko') setL('ko');
+</script>
+</body>
+</html>
