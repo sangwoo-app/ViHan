@@ -29,10 +29,11 @@
   .warn{background:#fff8e6;border-left:4px solid #c98a00;padding:12px 14px;border-radius:8px;margin:10px 0;font-size:14px}
   .foot{color:var(--sub);font-size:12.5px;text-align:center;margin-top:24px}
   code{background:#f0f2f5;padding:1px 5px;border-radius:4px;font-size:13px}
-  [lang]{display:none}
-  body.vi [lang="vi"],body.ko [lang="ko"]{display:block}
-  body.vi li[lang="vi"],body.ko li[lang="ko"]{display:list-item}
-  body.vi span[lang="vi"],body.ko span[lang="ko"]{display:inline}
+  /* ⚠️ .wrap 안으로 한정해야 함 — 그냥 [lang]으로 쓰면 <html lang="..">까지 숨겨져 문서 전체가 백지가 됨 */
+  .wrap [lang]{display:none}
+  body.vi .wrap [lang="vi"],body.ko .wrap [lang="ko"]{display:block}
+  body.vi .wrap li[lang="vi"],body.ko .wrap li[lang="ko"]{display:list-item}
+  body.vi .wrap span[lang="vi"],body.ko .wrap span[lang="ko"]{display:inline}
 </style>
 </head>
 <body class="vi">
