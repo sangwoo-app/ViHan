@@ -20,6 +20,8 @@
   h1{font-size:21px;margin:0 0 4px}
   h2{font-size:16px;margin:22px 0 6px;color:#0072c6}
   h2:first-child{margin-top:0}
+  /* h3 스타일을 안 주면 브라우저 기본값(18.7px)이라 h2(16px)보다 커져서 상하위가 뒤집혀 보인다 */
+  h3{font-size:14.5px;margin:14px 0 4px}
   p,li{font-size:14.5px}
   ul{padding-left:20px;margin:6px 0}
   .meta{color:var(--sub);font-size:13px;margin:0 0 18px}
@@ -95,11 +97,27 @@
       </ul>
       <p>Bạn có thể từ chối các quyền này; các chức năng khác vẫn dùng được bình thường.</p>
 
-      <h2>5. Xóa dữ liệu</h2>
+      <h2 id="delete-account">5. Xóa dữ liệu và xóa tài khoản</h2>
       <ul>
         <li lang="vi"><b>Dữ liệu trên máy</b> (chấm công, ảnh, đơn khiếu nại): xóa trong ứng dụng, hoặc gỡ ứng dụng là mất hết.</li>
         <li lang="vi"><b>Bài Cộng đồng</b>: bấm "Xóa" trên bài của bạn.</li>
-        <li lang="vi">Muốn xóa toàn bộ, hãy gửi email cho chúng tôi (mục 8).</li>
+      </ul>
+
+      <h3 lang="vi">Cách xóa tài khoản trong ứng dụng</h3>
+      <p lang="vi">Mở ứng dụng → tab <b>Trang chủ (Cộng đồng)</b> → bấm <b>"Xóa tài khoản"</b> ở phía trên → xác nhận.
+      Thao tác này xóa <b>tài khoản, tất cả bài viết và bình luận của bạn</b> ngay lập tức và không thể khôi phục.</p>
+
+      <h3 lang="vi">Cách yêu cầu xóa tài khoản qua web</h3>
+      <p lang="vi">Nếu bạn đã gỡ ứng dụng hoặc quên mật khẩu, hãy gửi email tới
+      <a href="mailto:elvin5250@gmail.com?subject=Yeu%20cau%20xoa%20tai%20khoan%20ViHan">elvin5250@gmail.com</a>
+      với tiêu đề <b>"Yêu cầu xóa tài khoản"</b> và cho biết <b>biệt danh (nickname)</b> của bạn.
+      Chúng tôi xử lý trong vòng <b>30 ngày</b>.</p>
+      <ul>
+        <li lang="vi"><b>Bị xóa ngay</b>: tài khoản (biệt danh và mật khẩu đã mã hóa), tất cả bài viết và bình luận của bạn.</li>
+        <li lang="vi"><b>Có thể còn lại</b>: dấu vết lượt thích / báo cáo mà bạn đã để lại trên bài của người khác.
+        Những bản ghi này chỉ chứa một <b>mã ngẫu nhiên</b>, không có biệt danh, không có nội dung, và sau khi tài khoản bị xóa thì mã đó không còn liên kết với bất kỳ ai.
+        Nếu bạn muốn xóa cả những dấu vết này, hãy gửi email cho chúng tôi.</li>
+        <li lang="vi">Dữ liệu trên máy nằm trong điện thoại của bạn — chúng tôi không xem được và không xóa từ xa được. Hãy gỡ ứng dụng.</li>
       </ul>
 
       <h2>6. Trẻ em</h2>
@@ -194,11 +212,26 @@
       </ul>
       <p>권한을 거부해도 나머지 기능은 정상 사용할 수 있습니다.</p>
 
-      <h2>5. 삭제 방법</h2>
+      <h2 id="delete-account-ko">5. 삭제 방법 · 계정 삭제</h2>
       <ul>
         <li lang="ko"><b>기기 내 데이터</b>(출퇴근·사진·진정서): 앱에서 삭제하거나 앱을 제거하면 모두 사라집니다.</li>
         <li lang="ko"><b>커뮤니티 글</b>: 본인 글의 "삭제"를 누르세요.</li>
-        <li lang="ko">전체 삭제를 원하면 아래 이메일로 요청해주세요.</li>
+      </ul>
+
+      <h3 lang="ko">앱에서 계정 삭제하는 방법</h3>
+      <p lang="ko">앱 실행 → <b>홈(커뮤니티)</b> 탭 → 상단 <b>"계정 삭제"</b> → 확인.
+      <b>계정과 본인이 쓴 모든 글·댓글</b>이 즉시 삭제되며 복구할 수 없습니다.</p>
+
+      <h3 lang="ko">웹에서 계정 삭제를 요청하는 방법</h3>
+      <p lang="ko">앱을 이미 지웠거나 비밀번호를 잊은 경우,
+      <a href="mailto:elvin5250@gmail.com?subject=ViHan%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">elvin5250@gmail.com</a>
+      으로 제목 <b>"계정 삭제 요청"</b>과 본인 <b>닉네임</b>을 적어 보내주세요. <b>30일 이내</b>에 처리합니다.</p>
+      <ul>
+        <li lang="ko"><b>즉시 삭제되는 것</b>: 계정(닉네임·암호화된 비밀번호), 본인이 작성한 모든 글과 댓글.</li>
+        <li lang="ko"><b>남을 수 있는 것</b>: 다른 사람의 글에 남긴 좋아요·신고 흔적.
+        이 기록에는 <b>임의의 식별자</b>만 있고 닉네임도 내용도 없으며, 계정이 삭제되면 그 식별자는 누구와도 연결되지 않습니다.
+        이 흔적까지 지우기를 원하시면 이메일로 요청해주세요.</li>
+        <li lang="ko">기기 내 데이터는 사용자 휴대폰에만 있어 저희가 볼 수도, 원격으로 지울 수도 없습니다. 앱을 제거해주세요.</li>
       </ul>
 
       <h2>6. 아동</h2>
