@@ -1,45 +1,44 @@
 {
-  "updated": "2026-08-03 08:03",
-  "mid": 18.2683,
+  "updated": "2026-08-03 12:03",
+  "mid": 18.2443,
   "providers": [
     {
       "name": "GME Remit",
-      "vndPerKrw": 18.2683,
+      "vndPerKrw": 18.2443,
       "fee": 5000,
       "src": "est",
       "obs": ""
     },
     {
       "name": "Hanpass",
-      "vndPerKrw": 18.1953,
+      "vndPerKrw": 18.1713,
       "fee": 4000,
       "src": "est",
       "obs": ""
     },
     {
       "name": "E9pay",
-      "vndPerKrw": 18.1222,
+      "vndPerKrw": 18.0983,
       "fee": 3000,
       "src": "est",
       "obs": ""
     },
     {
       "name": "Sentbe",
-      "vndPerKrw": 18.0491,
+      "vndPerKrw": 18.0254,
       "fee": 0,
       "src": "est",
       "obs": ""
     },
     {
       "name": "Wirebarley",
-      "vndPerKrw": 18.2318,
+      "vndPerKrw": 18.2078,
       "fee": 3000,
       "src": "est",
       "obs": ""
     }
   ],
   "history": [
-    18.1952,
     18.1952,
     18.1952,
     18.3881,
@@ -68,45 +67,45 @@
     18.2683,
     18.2683,
     18.2683,
-    18.2683
+    18.2683,
+    18.2443
   ],
   "cur": {
     "VND": {
-      "mid": 18.2683,
+      "mid": 18.2443,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 18.2683,
+          "rate": 18.2443,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 18.1953,
+          "rate": 18.1713,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 18.1222,
+          "rate": 18.0983,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 18.0491,
+          "rate": 18.0254,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 18.2318,
+          "rate": 18.2078,
           "fee": 3000,
           "src": "est"
         }
       ],
       "history": [
-        18.1952,
         18.1952,
         18.1952,
         18.3881,
@@ -135,39 +134,40 @@
         18.2683,
         18.2683,
         18.2683,
-        18.2683
+        18.2683,
+        18.2443
       ]
     },
     "THB": {
-      "mid": 0.023302,
+      "mid": 0.023224,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 0.023302,
+          "rate": 0.023224,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 0.023209,
+          "rate": 0.023131,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 0.023116,
+          "rate": 0.023038,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 0.023022,
+          "rate": 0.022945,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 0.023255,
+          "rate": 0.023178,
           "fee": 3000,
           "src": "est"
         }
@@ -192,39 +192,40 @@
         0.023302,
         0.023302,
         0.023302,
-        0.023302
+        0.023302,
+        0.023224
       ]
     },
     "KHR": {
-      "mid": 2.8158,
+      "mid": 2.8026,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 2.8158,
+          "rate": 2.8026,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 2.8045,
+          "rate": 2.7914,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 2.7933,
+          "rate": 2.7802,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 2.782,
+          "rate": 2.769,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 2.8102,
+          "rate": 2.797,
           "fee": 3000,
           "src": "est"
         }
@@ -249,39 +250,40 @@
         2.8158,
         2.8158,
         2.8158,
-        2.8158
+        2.8158,
+        2.8026
       ]
     },
     "NPR": {
-      "mid": 0.106149,
+      "mid": 0.106022,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 0.106149,
+          "rate": 0.106022,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 0.105724,
+          "rate": 0.105598,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 0.1053,
+          "rate": 0.105174,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 0.104875,
+          "rate": 0.10475,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 0.105937,
+          "rate": 0.10581,
           "fee": 3000,
           "src": "est"
         }
@@ -306,39 +308,40 @@
         0.106149,
         0.106149,
         0.106149,
-        0.106149
+        0.106149,
+        0.106022
       ]
     },
     "IDR": {
-      "mid": 12.5218,
+      "mid": 12.5241,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 12.5218,
+          "rate": 12.5241,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 12.4717,
+          "rate": 12.474,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 12.4216,
+          "rate": 12.4239,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 12.3715,
+          "rate": 12.3738,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 12.4968,
+          "rate": 12.4991,
           "fee": 3000,
           "src": "est"
         }
@@ -363,39 +366,40 @@
         12.5218,
         12.5218,
         12.5218,
-        12.5218
+        12.5218,
+        12.5241
       ]
     },
     "UZS": {
-      "mid": 8.2876,
+      "mid": 8.2103,
       "providers": [
         {
           "name": "GME Remit",
-          "rate": 8.2876,
+          "rate": 8.2103,
           "fee": 5000,
           "src": "est"
         },
         {
           "name": "Hanpass",
-          "rate": 8.2545,
+          "rate": 8.1774,
           "fee": 4000,
           "src": "est"
         },
         {
           "name": "E9pay",
-          "rate": 8.2213,
+          "rate": 8.1446,
           "fee": 3000,
           "src": "est"
         },
         {
           "name": "Sentbe",
-          "rate": 8.1882,
+          "rate": 8.1118,
           "fee": 0,
           "src": "est"
         },
         {
           "name": "Wirebarley",
-          "rate": 8.271,
+          "rate": 8.1939,
           "fee": 3000,
           "src": "est"
         }
@@ -420,7 +424,8 @@
         8.2876,
         8.2876,
         8.2876,
-        8.2876
+        8.2876,
+        8.2103
       ]
     },
     "CNY": {
@@ -471,6 +476,7 @@
         0.004726,
         0.004726,
         0.004726,
+        0.004735,
         0.004735,
         0.004735,
         0.004735,
